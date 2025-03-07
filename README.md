@@ -59,3 +59,12 @@ We would like to build a linear regression model using these values so we can th
   - When to use normalization vs. standardization.
   - Handling categorical features alongside scaling.
   - Choosing an optimal learning rate for different datasets.
+### Requirements
+To run this notebook, ensure you have Python installed along with the required libraries:
+```
+pip install numpy pandas matplotlib scikit-learn jupyterlab
+```
+Then, launch Jupyter Notebook with:
+```
+jupyter notebook feature_scaling_and_learning_rate.ipynb
+```
