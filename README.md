@@ -43,19 +43,19 @@ We would like to build a linear regression model using these values so we can th
 | 1947	| 3	| 2	| 17	| 509.8 |
 | ...	| ...	| ...	| ...	| ... |
 ### Contents
-- Introduction to Feature Scaling
+- **Introduction to Feature Scaling**
   - Why is feature scaling important?
   - Common scaling methods: Min-Max Scaling, Standardization, and Robust Scaling.
-- Mathematical Background
+- **Mathematical Background**
   - How scaling affects gradient descent updates.
   - Theoretical explanation of learning rate sensitivity.
-- Implementation in Python
+- **Implementation in Python**
   - Loading a sample dataset.
   - Applying different scaling techniques using scikit-learn.
-- Impact on Gradient Descent
+- **Impact on Gradient Descent**
   - Training a simple linear model with unscaled vs. scaled features.
   - Visualizing the loss function behavior over epochs.
-- Best Practices and Recommendations
+- **Best Practices and Recommendations**
   - When to use normalization vs. standardization.
   - Handling categorical features alongside scaling.
   - Choosing an optimal learning rate for different datasets.
