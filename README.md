@@ -25,3 +25,7 @@ General
 | 𝑓𝐰,𝑏(𝐱<sup>(𝑖)</sup>) | The result of the model evaluation at  𝐱<sup>(𝑖)</sup> parameterized by  𝐰,𝑏 :  𝑓𝐰,𝑏(𝐱<sup>(𝑖)</sup>)=𝐰⋅𝐱<sup>(𝑖)</sup>+𝑏 | `f_wb` |
 | ∂𝐽(𝐰,𝑏)/∂𝑤𝑗 |	the gradient or partial derivative of cost with respect to a parameter  𝑤𝑗 | `dj_dw[j]` |
 | ∂𝐽(𝐰,𝑏)/∂𝑏 | the gradient or partial derivative of cost with respect to a parameter  𝑏 | 	`dj_db` |
+### Problem Statement
+We will use the motivating example of housing price prediction. The training data set contains many examples with 4 features (size, bedrooms, floors and age) shown in the table below. Note, the Size feature is in sqft while earlier labs utilized 1000 sqft.  
+
+We would like to build a linear regression model using these values so we can then predict the price for other houses - say, a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old.
