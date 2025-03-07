@@ -1,12 +1,13 @@
 # Feature scaling and Learning Rate (Multi-variable Linear Regression)
 ### Overview
 This Jupyter Notebook explores the impact of feature scaling on machine learning models and how it affects the learning rate during training. Feature scaling is a crucial preprocessing step that ensures efficient convergence of optimization algorithms like gradient descent.
-### Goals
-In this notebook you will:
-- Utilize the multiple variables routines developed in our previous projects
-- Run Gradient Descent on a data set with multiple features
-- Explore the impact of the learning rate alpha on gradient descent
-- Improve performance of gradient descent by feature scaling using z-score normalization
+### Objectives
+This notebook aims to:
+- Explain the importance of feature scaling in machine learning.
+- Compare different feature scaling techniques (Normalization vs. Standardization).
+- Demonstrate the effect of unscaled vs. scaled features on gradient descent convergence.
+- Visualize how learning rates interact with scaled/unscaled data.
+- Provide practical insights into choosing an appropriate scaling method for ML models.
 ### Tools
 We will utilize the functions developed in the last notebook as well as `matplotlib` and `NumPy`.
 ### Notation
