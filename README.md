@@ -29,3 +29,9 @@ General
 We will use the motivating example of housing price prediction. The training data set contains many examples with 4 features (size, bedrooms, floors and age) shown in the table below. Note, the Size feature is in sqft while earlier labs utilized 1000 sqft.  
 
 We would like to build a linear regression model using these values so we can then predict the price for other houses - say, a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old.
+### Dataset:
+| Size (sqft) |	Number of Bedrooms	| Number of floors	| Age of Home	| Price (1000s dollars) |
+| 952	| 2	| 1	| 65 | 271.5 |
+| 1244	| 3	| 2	| 64	| 232 |
+| 1947	| 3	| 2	| 17	| 509.8 |
+| ...	| ...	| ...	| ...	| ... |
