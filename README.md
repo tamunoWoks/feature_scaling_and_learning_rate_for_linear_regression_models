@@ -8,8 +8,11 @@ This notebook aims to:
 - Demonstrate the effect of unscaled vs. scaled features on gradient descent convergence.
 - Visualize how learning rates interact with scaled/unscaled data.
 - Provide practical insights into choosing an appropriate scaling method for ML models.
-### Tools
-We will utilize the functions developed in the last notebook as well as `matplotlib` and `NumPy`.
+### Libraries Used:
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scikit-learn`
 ### Notation
 General
 |Notation	| Description	| Python (if applicable) |
