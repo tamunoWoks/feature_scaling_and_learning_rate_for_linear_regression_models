@@ -1,4 +1,6 @@
 # Feature scaling and Learning Rate (Multi-variable Linear Regression)
+### Overview
+This Jupyter Notebook explores the impact of feature scaling on machine learning models and how it affects the learning rate during training. Feature scaling is a crucial preprocessing step that ensures efficient convergence of optimization algorithms like gradient descent.
 ### Goals
 In this notebook you will:
 - Utilize the multiple variables routines developed in our previous projects
